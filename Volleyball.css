@@ -1,0 +1,115 @@
+/* Allgemeines Layout */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f7f9fc;
+    color: #222;
+
+    /* Sticky Footer */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Kopfbereich */
+header {
+    background: #00539C;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin-top: 0.3rem;
+    font-weight: normal;
+}
+
+/* Navigation */
+nav {
+    background: #003366;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background: #0077cc;
+}
+
+/* Inhalte */
+main {
+    flex: 1; /* Sticky Footer: nimmt Resthöhe ein */
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #00539C;
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 0.3rem;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Listen */
+ol, ul {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #00539C;
+    color: white;
+    margin-top: 2rem;
+    border-top: 4px solid #0077cc;
+}
+
+/* Bilder anpassen */
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 60%;   /* Bildbreite auf 60 % der Seite begrenzen */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
