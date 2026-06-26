@@ -8,8 +8,8 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f7f9fc;
-    color: #222;
+    background: rgb(247, 249, 252);
+    color: rgb(34, 34, 34);
 
     /* Sticky Footer */
     display: flex;
@@ -18,7 +18,7 @@ body {
 
 /* Kopfbereich */
 header {
-    background: #00539C;
+    background: rgb(0, 83, 156);
     color: white;
     padding: 1rem;
     text-align: center;
@@ -36,7 +36,7 @@ header h2 {
 
 /* Navigation */
 nav {
-    background: #003366;
+    background: rgb(0, 51, 102);
     display: flex;
     justify-content: center;
     padding: 0.5rem;
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #0077cc;
+    background: rgb(0, 119, 204);
 }
 
 /* Inhalte */
@@ -63,13 +63,13 @@ main {
     padding: 1rem 2rem;
     background: white;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h3 {
-    color: #00539C;
+    color: rgb(0, 83, 156);
     margin-top: 1.5rem;
-    border-bottom: 2px solid #0077cc;
+    border-bottom: 2px solid rgb(0, 119, 204);
     padding-bottom: 0.3rem;
 }
 
@@ -98,10 +98,10 @@ li {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #00539C;
+    background: rgb(0, 83, 156);
     color: white;
     margin-top: 2rem;
-    border-top: 4px solid #0077cc;
+    border-top: 4px solid rgb(0, 119, 204);
 }
 
 /* Bilder anpassen */
@@ -111,5 +111,5 @@ img {
     max-width: 60%;   /* Bildbreite auf 60 % der Seite begrenzen */
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
